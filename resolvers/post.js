@@ -11,8 +11,7 @@ const newPost = (parent, args) => {
     // create a new post object
     const post = {
         id: posts.length + 1,
-        title: args.title,
-        description: args.description
+        ...args.input
     };
     // push new post object to posts array
     posts.push(post);
