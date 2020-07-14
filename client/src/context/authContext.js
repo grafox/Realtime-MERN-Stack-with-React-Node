@@ -27,3 +27,4 @@ const AuthProvider = ({ children }) => {
 };
 
 // export
+export { AuthContext, AuthProvider };
